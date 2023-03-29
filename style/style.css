@@ -1,1 +1,127 @@
 @import url('font.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --font: 'Poppins';
+}
+
+body {
+    font-family: var(--font);
+    font-weight: 400;
+    color: var(--white);
+}
+
+/* header */
+.nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background: var(--black);
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav_link {
+    color: var(--white);
+    padding: 10px 20px;
+    transition: .4s;
+    border-radius: 14px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.nav_link:hover {
+    background: var(--white);
+    border-radius: 14px;
+    color: var(--black);
+    transition: .4s;
+}
+
+.intro {
+    background: url('../img/intro.png')no-repeat center/ cover;
+    min-height: 715px;
+    height: 100%;
+}
+
+.intro::after {
+    content: '';
+    background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%);
+}
+
+.intro .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 600px;
+    text-align: center;
+    height: 715px;
+}
+
+.intro_subtitle-up {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    letter-spacing: 2px;
+}
+
+.intro_title {
+    font-size: 54px;
+    line-height: 59px;
+    margin-bottom: 20px;
+}
+
+.intro_subtitle {
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 580px;
+}
+
+.intro_options {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro_options-img {
+    margin-right: 5px;
+}
+
+.intro_options span {
+    margin-right: 15px;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 5px;
+}
