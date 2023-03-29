@@ -341,3 +341,7 @@ body {
     transform: scale(1.1);
     transition: 0.4s;
 }
+
+.starFall {
+    background: url('../img/star fall.png')no-repeat center / cover;
+}
