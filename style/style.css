@@ -306,3 +306,38 @@ body {
 .leafs {
     background: url('../img/leaf.png')no-repeat center / cover;
 }
+
+.clients {
+    background: var(--black);
+    padding: 120px 0 100px;
+}
+
+.clients_title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.clients_subtitle {
+    padding: 15px 0 40px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.clients_logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+}
+
+.clients_logos img {
+    transition: 0.4s;
+}
+
+.clients_logos img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
