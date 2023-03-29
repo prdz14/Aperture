@@ -345,3 +345,27 @@ body {
 .starFall {
     background: url('../img/star fall.png')no-repeat center / cover;
 }
+
+.help {
+    background: var(--black);
+    padding: 110px 0;
+}
+
+.help_title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.help_subtitle {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 15px 0;
+    color: #C0C0C0;
+}
+
+.help_block {
+    display: flex;
+    justify-content: center;
+}
