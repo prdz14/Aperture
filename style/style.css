@@ -302,3 +302,7 @@ body {
     bottom: 0;
     right: 60px;
 }
+
+.leafs {
+    background: url('../img/leaf.png')no-repeat center / cover;
+}
